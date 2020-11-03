@@ -13,7 +13,7 @@ The Red Hat Universal Base Image aims to be a high-quality, flexible base contai
 * Red Hat promises to maintain images for as long as they maintain RHEL
   
 
-![RHEL Release and Support Timeline](/RedHatEnablement/Building_With_Dockerfiles/images/RHEL-version-horizon.png)
+![RHEL Release and Support Timeline](/Building_With_Dockerfiles/images/RHEL-version-horizon.png)
 
 ### Reasons to Use UBI in your Applications
 
@@ -34,7 +34,7 @@ Each instruction in a Dockerfile results in a new layer for the final container 
 
 **LABEL** Instruction - Defines image metadata. Labels are key-value pairs attached to an image. OpenShift can parse labels to run commands.
 
-![openshift-supported-labels](/RedHatEnablement/Building_With_Dockerfiles/images/supported-dockerfile-labels.png)
+![openshift-supported-labels](/Building_With_Dockerfiles/images/supported-dockerfile-labels.png)
 
 **WORKDIR** Instruction – Sets the working directory for the following instructions: RUN, CMD, ENTRYPOINT, COPY, and ADD 
 
@@ -71,7 +71,7 @@ If you must build and run an application as root, you can disable one of OpenShi
 
 | Topic                                                  | Duration | Link                                                         |
 | ------------------------------------------------------ | -------- | ------------------------------------------------------------ |
-| Building a Dockerfile Image with Advanced Instructions | 4:47 min | <video src="/Building_With_Dockerfiles/Building Dockerfiles with Advanced Instructions.mp4"></video> |
+| Building a Dockerfile Image with Advanced Instructions | 4:47 min | <video src="Building Dockerfiles with Advanced Instructions.mp4"></video> |
 
 # Additional Resources
 
